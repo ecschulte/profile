@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300&display=swap');
+
+body {
+  background: black;
+  color: #575F7D;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 17px;
+  font-weight: stronger;
+}
+h1, h2, h3, a, p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight:
+}
+h1 {
+  color: black;
+  font-size: 35px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+h2 {
+  color: #575F7D;
+  font-size: 30px;
+  font-weight: lighter;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+p {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.fa-github-square, .fa-instagram, .fa-linkedin {
+  font-size: 60px;
+}
+
+a:hover {
+  color: black;
+}
+
+.cards {
+  background-color: #F6F6F6;
+  text-align: center;
+  width: auto;
+  margin: 15px auto;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.container {
+  width: 900px;
+  margin: 150px auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+
+.button {
+  background:    #f4cccc;
+  border-radius: 11px;
+  margin-top: 13px;
+  padding: 10px 25px;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
